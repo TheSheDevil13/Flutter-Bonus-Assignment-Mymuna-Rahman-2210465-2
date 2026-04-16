@@ -24,7 +24,7 @@ class TaskCardWidget extends StatelessWidget {
         leading: icon != null ? Icon(icon) : Icon(Icons.task),
         trailing: IconButton(
           onPressed: onTap ?? _handleTap,
-          icon: Icon(Icons.arrow_forward_ios),
+          icon: Icon(Icons.delete, color: Colors.red),
         ),
       ),
     );
